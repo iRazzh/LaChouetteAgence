@@ -1436,8 +1436,9 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
-    height: auto
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .img-rounded {
@@ -2066,7 +2067,10 @@ pre code {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
+}
+.col-sm-6{
+    margin-bottom: 4rem;
 }
 
 .col-xs-1,
@@ -5103,7 +5107,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
         box-shadow: none
     }
     .navbar-collapse.collapse {
-        display: block !important;
+        display: flex;
         height: auto !important;
         padding-bottom: 0;
         overflow: visible !important
