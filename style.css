@@ -835,10 +835,11 @@ h2 {
     text-align: center;
 }
 
-.col-sm-3 h4{
+.col-sm-3 h4, .col-sm-3 h2{
     color: #533D3C;
+    font-size: 18px;
 }
-.col-sm-3 h4:hover{
+.col-sm-3 h4:hover, .col-sm-3 h2:hover{
     color: #801C1C;
 }
 
