@@ -470,7 +470,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 30px;
 }
 
 .icon-lg {
@@ -693,7 +693,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -834,6 +834,14 @@ h2 {
 .row{
     text-align: center;
 }
+
+.col-sm-3 h4{
+    color: #533D3C;
+}
+.col-sm-3 h4:hover{
+    color: #801C1C;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
