@@ -843,6 +843,10 @@ h2 {
     color: #801C1C;
 }
 
+.header{
+    display: flex;
+    
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
